@@ -1,0 +1,46 @@
+/*
+  width: 25%;
+  display: inline-block;
+  height: 30%;
+  text-align: center;
+  box-shadow: 1px 1px 1px #8246AF;
+  padding: 10px;
+  height: 300px;
+  font-family: Arial, sans-serif;
+  color: #8246AF;
+  margin: 10px;
+  width: auto;
+  text-align: center;
+  border: 2px solid #8246AF;
+*/
+
+html {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+     color: #8246AF;
+}
+
+#cards {
+   width: 60%;
+   box-shadow: 2px 2px 3px 1px #969292;
+   padding: 20px;
+
+}
+
+.card {
+    height: 300px;
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #8246AF;
+    margin: 10px;
+    box-shadow: 1px 1px 1px #8246AF;
+    text-align: center;
+}
+
+.card img {
+    height: 30%;
+}
