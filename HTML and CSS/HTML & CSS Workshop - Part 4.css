@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=SUSE:wght@100..800&family=Sacramento&family=Sevillana&display=swap');
+html {
+	font-family: Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+  font-family: "Sevillana", cursive;
+	font-size: 50px;
+	color: blue;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+h2 {
+	  font-family: "Sevillana", cursive;
+	font-size: 30px;
+	color: blue;
+}
+
+h3 {
+	font-family: "Sevillana", cursive;
+	font-size: 25px;
+	color: blue;
+}
+
+img {
+	object-fit: cover;
+}
+
+#section-1 {
+	height: 300px;
+	background-image: url("https://images.unsplash.com/photo-1518709594023-6eab9bab7b23");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* Your CSS here */
+header img {
+	height: 100px;
+	border: 3px solid purple;
+}
+
+#section-2 div img {
+	width: 200px;
+}
+a {
+	color: #ffffff;
+}
+.card {
+	height: 250px;
+	width: 25%;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: white;
+	padding: 20px;
+	margin: 0 10px;
+	border: 3px solid purple;
+	box-shadow: 1px 1px 2px #000000;
+
+}
+
+.card img {
+	height: 40%;
+	width: 100%;
+}
+#section-4, .column {
+	padding: 20px 0px;
+}
+#section-4 img {
+	width: 400px;
+}
+
+.column {
+	width: 50%;
+	display: inline-block;
+}
+
+.column img {
+	height: 200px;
+	width: 80%;
+}
+
+nav {
+	text-align: right;
+	background-color: #87CEEB;
+	padding: 10px;
+  font-family: "SUSE", sans-serif;
+}
+
+p {
+  font-family: "SUSE", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+}
+
+header div {
+	padding: 20px;
+}
+
+header, main {
+	text-align: center;
+}
+#section-2 {
+	padding: 20px 0px;
+}
+#section-3 {
+background: linear-gradient(90deg, #885A89 0%, #87A1EB 100%);
+	padding: 20px;
+}
+
+#left-column {
+	background-color: yellow;
+}
+
+#right-column {
+	background-color: orange;
+}
+
+footer {
+	background-color: skyblue;
+	padding: 10px;
+}
